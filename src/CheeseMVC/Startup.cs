@@ -61,7 +61,6 @@ namespace CheeseMVC
                     name: "default",
                     template: "{controller=Cheese}/{action=Index}/{id?}");
             });
-            context.Database.EnsureCreated();
         }
     }
 }
